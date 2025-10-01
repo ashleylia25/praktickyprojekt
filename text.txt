@@ -1,0 +1,51 @@
+Jasně! Tady je **rozdělený a strukturovaný text** vhodný pro webovou stránku. Můžeš ho použít jako základ pro sekci „O službě“, případně i pro hlavní stránku (homepage). Každý odstavec může být samostatně vizuálně oddělený (např. ikonou, boxem, sekcí).
+
+---
+
+## 🚗 Co je RideShareLive?
+
+**RideShareLive** je moderní platforma pro sdílené jízdy, která propojuje řidiče s volnými místy a cestující hledající efektivní způsob dopravy. Řidiči, kteří mají naplánovanou trasu, mohou nabídnout spolujízdu a cestující si jednoduše vyberou tu, která jim vyhovuje nejlépe – podle trasy, času odjezdu nebo ceny.
+
+---
+
+## ✅ Registrace a profily
+
+Registrace probíhá jednoduše přes e-mail nebo telefonní číslo. Každý uživatel má svůj profil, který obsahuje historii jízd, hodnocení od ostatních a případně i doporučení. Díky tomu si mohou cestující i řidiči snadno ověřit spolehlivost druhé strany.
+
+---
+
+## 🗺️ Sdílení trasy v reálném čase
+
+Řidič zadá start a cíl trasy a ta se zobrazí živě na mapě. Potenciální cestující tak hned vidí, kudy auto pojede, a mohou se připojit v bodě, který jim vyhovuje. Během jízdy lze sledovat aktuální polohu vozidla – cestující i jejich blízcí tak mají přehled o tom, kde se nacházejí.
+
+---
+
+## 💳 Platby a cenová flexibilita
+
+Řidič si může nastavit konkrétní cenu nebo cenové rozpětí za trasu či její část. Cestující si zvolí místo nástupu a výstupu a zaplatí jednoduše přímo v aplikaci. RideShareLive si bere jen malý poplatek za zprostředkování jízdy.
+
+---
+
+## 🚏 Flexibilní zastávky
+
+Cestující nemusí nastupovat jen na pevných bodech. Pokud je jejich místo nástupu či výstupu poblíž plánované trasy řidiče, mohou se domluvit na individuálním zastavení. To přináší větší pohodlí a možnost využít spolujízdu i pro méně frekventované trasy.
+
+---
+
+## 🔒 Bezpečnost a důvěra
+
+Každý uživatel má možnost hodnotit druhé účastníky jízdy. V aplikaci je zabudované nouzové tlačítko a možnost sdílení aktuální polohy s rodinou nebo přáteli. Ověřené profily zvyšují důvěru a bezpečnost pro všechny strany.
+
+---
+
+## 🌍 Proč právě RideShareLive?
+
+* Úspora času a nákladů na cestování
+* Využití volných míst v autech
+* Ekologická alternativa k individuální dopravě
+* Větší kontrola nad výběrem trasy i spolucestujících
+
+---
+
+Chceš to doplnit o CTA tlačítka, nadpisy pro SEO, nebo návrh struktury celé landing page? Dej vědět a doladíme to!
+
