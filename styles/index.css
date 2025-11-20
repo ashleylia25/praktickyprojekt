@@ -1,0 +1,20 @@
+#banner {
+    
+}
+#header {
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+.headernadpis {
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    margin: auto;
+}
