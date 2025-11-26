@@ -6,81 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RideShareLive</title>
     <link rel="stylesheet" href="bootstrap.min.css">
-    <style>
-        .uvodni-sekce {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 40px 32px;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-
-        .uvodni-text {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        .uvodni-obrazek {
-            flex: 1;
-            min-width: 300px;
-            text-align: right;
-        }
-
-        .uvodni-obrazek img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .nadpis {
-            padding-top: 16px;
-        }
-
-        .podtext {
-            font-size: x-large;
-        }
-
-        .podnadpisy-vlevo {
-            padding-right: 32px;
-            padding-left: 60%;
-            padding-top: 100px;
-        }
-
-        .podtexty-vlevo {
-            padding-right: 32px;
-            padding-left: 60%;
-            font-size: x-large;
-        }
-
-        .podnadpisy-vpravo {
-            padding-top: 100px;
-            padding-right: 60%;
-            padding-left: 32px;
-        }
-
-        .podtexty-vpravo {
-            padding-right: 60%;
-            padding-left: 32px;
-            font-size: x-large;
-        }
-
-        @media (max-width: 768px) {
-            .uvodni-sekce {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .uvodni-obrazek {
-                text-align: center;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/aplikace.css">
 </head>
 
 <body>
 
-    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Navbar</a>
@@ -113,14 +43,12 @@
         </div>
     </nav>
 
-    <!-- alert -->
     <div class="alert alert-dismissible alert-warning">
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
         <h4 class="alert-heading">Upozornění!</h4>
         <p class="mb-0">Tahle stránka ještě není dokončena. Omluvte prosím nepěknosti.</p>
     </div>
 
-    <!-- uvod: text vlevo, obrazek vpravo -->
     <div class="uvodni-sekce">
         <div class="uvodni-text">
             <h1 class="nadpis">RideShare</h1>
@@ -135,30 +63,25 @@
         </div>
     </div>
 
-    <!-- registrace -->
     <h2 class="podnadpisy-vlevo">Registrace</h2>
     <p class="podtexty-vlevo">Uživatelé se registrují přes email nebo telefon. Každý má svůj profil s historií jízd,
         hodnocením a případně referencemi.</p>
 
-    <!-- sdileni trasy -->
     <h2 class="podnadpisy-vpravo">Princip</h2>
     <p class="podtexty-vpravo">Řidič zadá start a cíl trasy a ta se zobrazí živě na mapě. Potenciální cestující tak hned
         vidí, kudy řidič pojede, a mohou se připojit v bodě, který jim vyhovuje. Během jízdy lze sledovat aktuální
         polohu vozidla – cestující i jejich blízcí tak mají přehled o tom, kde se nacházejí.</p>
 
-    <!-- placeni -->
     <h2 class="podnadpisy-vlevo">Platby a cenová flexibilita</h2>
     <p class="podtexty-vlevo">Řidič si může nastavit konkrétní cenu nebo cenové rozpětí za trasu či její část. Cestující
         si zvolí místo nástupu a výstupu a zaplatí jednoduše přímo v aplikaci. RideShareLive si bere jen malý poplatek
         za zprostředkování jízdy.</p>
 
-    <!-- flex. zastavky -->
     <h2 class="podnadpisy-vpravo">Flexibilní zastávky</h2>
     <p class="podtexty-vpravo">Cestující nemusí nastupovat jen na pevných bodech. Pokud je jejich místo nástupu či
         výstupu poblíž plánované trasy řidiče, mohou se domluvit na individuálním zastavení. To přináší větší pohodlí a
         možnost využít spolujízdu i pro méně frekventované trasy.</p>
 
-    <!-- bezpecnost -->
     <h2 class="podnadpisy-vlevo">Bezpečnost na prvním místě</h2>
     <p class="podtexty-vlevo">Každý uživatel má ověřený profil a může být hodnocen ostatními. Aplikace nabízí nouzové
         tlačítko, možnost sdílení trasy s blízkými a přehled o jízdní historii. Bezpečí a důvěra jsou základem
