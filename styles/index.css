@@ -1,5 +1,5 @@
 #banner {
-    border: 10px solid gainsboro;
+    border: 12px solid gainsboro;
     border-radius: 40px;
     background-color: darkcyan;
     width: 95%;
@@ -7,37 +7,45 @@
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
 #header {
-    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    border: 8px solid white;
     border-radius: 30px;
     background-color: cornflowerblue;
-    width: 250px;
+    width: 260px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 20px;
 }
+
 #banner-content {
-    border: 5px solid gainsboro;
+    border: 6px solid gainsboro;
     border-radius: 25px;
     background-color: gray;
     color: white;
     margin: 50px;
     padding: 25px;
 }
+
 .headernadpis {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     text-align: center;
     padding: 25px;
     font-weight: bolder;
     margin: auto;
+    text-align: center;
 }
+
 #button-area {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
+
 .buttons {
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 20px;
     background-color: gainsboro;
-    font-weight: bold;
-
+    font-weight: bolder;
 }
