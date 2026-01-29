@@ -42,175 +42,177 @@
             </div>
         </div>
     </nav>
-    <form class="organized-form">
-
-        <!-- Nadpis formuláře -->
-        <h2 class="mb-4 text-center">Kontaktujte nás</h2>
-
-        <!-- 1. Kontaktní údaje -->
-        <fieldset class="form-section">
-            <legend>Kontaktní údaje</legend>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Jméno</label>
-                        <input type="text" class="form-control" placeholder="Jan">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Příjmení</label>
-                        <input type="text" class="form-control" placeholder="Novák">
-                    </div>
+    <div class="content">
+        <form class="organized-form">
+            <div id="banner">
+                <div class="banner-nadpis">
+                    <h2 class="mb-4 text-center">Kontaktujte nás</h2>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="jan.novak@email.cz">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Telefon</label>
-                        <input type="text" class="form-control" placeholder="+420 123 456 789">
-                    </div>
-                </div>
-            </div>
-        </fieldset>
-
-        <!-- 2. Přihlašovací údaje -->
-        <fieldset class="form-section">
-            <legend>Přihlašovací údaje</legend>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Heslo</label>
-                        <input type="password" class="form-control" placeholder="Zadejte heslo" autocomplete="off">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Potvrzení hesla</label>
-                        <input type="password" class="form-control" placeholder="Znovu zadejte heslo"
-                            autocomplete="off">
-                    </div>
-                </div>
-            </div>
-        </fieldset>
-
-        <!-- 3. Výběry -->
-        <fieldset class="form-section">
-            <legend>Volby a nastavení</legend>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Výběr možnosti</label>
-                        <select class="form-select">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Vícenásobný výběr</label>
-                        <select multiple class="form-select">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <legend class="form-label">Radio buttony</legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios" checked>
-                            <label class="form-check-label">Option one</label>
+            <fieldset class="form-section">
+                <legend style="margin-top: 24px;">Kontaktní údaje</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Jméno</label>
+                            <input type="text" class="form-control" placeholder="Jan">
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios">
-                            <label class="form-check-label">Option two</label>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Příjmení</label>
+                            <input type="text" class="form-control" placeholder="Novák">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <legend class="form-label">Checkboxy a switch</legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox">
-                            <label class="form-check-label">Default checkbox</label>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="jan.novak@email.cz">
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" checked>
-                            <label class="form-check-label">Checked checkbox</label>
-                        </div>
-                        <div class="form-check form-switch mt-2">
-                            <input class="form-check-input" type="checkbox">
-                            <label class="form-check-label">Switch off</label>
-                        </div>
-                        <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" checked>
-                            <label class="form-check-label">Switch on</label>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Telefon</label>
+                            <input type="text" class="form-control" placeholder="+420 123 456 789">
                         </div>
                     </div>
                 </div>
-            </div>
-        </fieldset>
+            </fieldset>
 
-        <!-- 4. Ranges a textarea -->
-        <fieldset class="form-section">
-            <legend>Zpráva a rozsahy</legend>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Range</label>
-                        <input type="range" class="form-range" min="0" max="5" step="0.5">
+            <!-- 2. Přihlašovací údaje -->
+            <fieldset class="form-section">
+                <legend>Přihlašovací údaje</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Heslo</label>
+                            <input type="password" class="form-control" placeholder="Zadejte heslo" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Potvrzení hesla</label>
+                            <input type="password" class="form-control" placeholder="Znovu zadejte heslo"
+                                autocomplete="off">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="input-box">
-                        <label class="form-label">Disabled range</label>
-                        <input type="range" class="form-range" disabled>
+            </fieldset>
+
+            <!-- 3. Výběry -->
+            <fieldset class="form-section">
+                <legend>Volby a nastavení</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Výběr možnosti</label>
+                            <select class="form-select">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Vícenásobný výběr</label>
+                            <select multiple class="form-select">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row mt-3">
-                <div class="col-md-12">
-                    <div class="input-box">
-                        <label class="form-label">Vaše zpráva</label>
-                        <textarea class="form-control" rows="4" placeholder="Napište zprávu..."></textarea>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <legend class="form-label">Radio buttony</legend>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="optionsRadios" checked>
+                                <label class="form-check-label">Option one</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="optionsRadios">
+                                <label class="form-check-label">Option two</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <legend class="form-label">Checkboxy a switch</legend>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">Default checkbox</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" checked>
+                                <label class="form-check-label">Checked checkbox</label>
+                            </div>
+                            <div class="form-check form-switch mt-2">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">Switch off</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" checked>
+                                <label class="form-check-label">Switch on</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </fieldset>
 
-            <div class="row mt-3">
-                <div class="col-md-12">
-                    <div class="input-box">
-                        <label class="form-label">Příloha</label>
-                        <input type="file" class="form-control">
+            <!-- 4. Ranges a textarea -->
+            <fieldset class="form-section">
+                <legend>Zpráva a rozsahy</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Range</label>
+                            <input type="range" class="form-range" min="0" max="5" step="0.5">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-box">
+                            <label class="form-label">Disabled range</label>
+                            <input type="range" class="form-range" disabled>
+                        </div>
                     </div>
                 </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="input-box">
+                            <label class="form-label">Vaše zpráva</label>
+                            <textarea class="form-control" rows="4" placeholder="Napište zprávu..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="input-box">
+                            <label class="form-label">Příloha</label>
+                            <input type="file" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Odeslání -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg mt-3">Odeslat formulář</button>
             </div>
-        </fieldset>
 
-        <!-- Odeslání -->
-        <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg mt-3">Odeslat formulář</button>
-        </div>
-
-    </form>
+        </form>
+    </div>
 
 
 
