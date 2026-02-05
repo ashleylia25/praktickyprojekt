@@ -50,6 +50,7 @@
     font-weight: bolder;
     padding: 10px;
 }
+
 .navbar {
     background-color: #6E3CB5;
     border-bottom: 5px solid white;
@@ -76,7 +77,8 @@
 }
 
 .nav-item-active .nav-link {
-    border-bottom: 3px solid white;
+    border-bottom: 3px dotted white;
+    color: white;
 }
 
 .navbar .form-control {
