@@ -51,6 +51,15 @@
     padding: 10px;
 }
 
+.buttons:hover {
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: darkgray;
+    font-weight: bolder;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
 .navbar {
     background-color: #6E3CB5;
     border-bottom: 5px solid white;
