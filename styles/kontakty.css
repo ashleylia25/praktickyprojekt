@@ -1,8 +1,13 @@
 .organized-form {
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 36px auto;
+    padding: 25px;
+    border: 6px solid gainsboro;
+    border-radius: 25px;
+    background-color: rgba(25, 25, 25, 0.36);
+    color: white;
 }
+
 
 .form-section {
     display: flex;
@@ -21,7 +26,7 @@
 .input-box {
     flex: 1;
     min-width: 280px;
-    background-color: #6E3CB5;
+    background-color: rgba(255, 255, 255, 0.08);
     border: 5px solid white;
     border-radius: 50px;
     padding: 20px;
@@ -82,21 +87,11 @@ button[type="submit"]:hover {
     }
 }
 
-.content {
-    padding: 24px;
-    margin-top: 48px;
-    margin-right: 16%;
-    margin-left: 16%;
-    background-color: darkcyan;
-    border: 5px solid white;
-    border-radius: 64px;
-}
-
 #banner {
     justify-content: center;
     border: 8px solid white;
     border-radius: 30px;
-    background-color: cornflowerblue;
+    background-color: rgba(255, 255, 255, 0.08);
     width: 260px;
     margin: auto;
 }
@@ -171,4 +166,20 @@ button[type="submit"]:hover {
         margin-top: 10px;
         width: 100%;
     }
+}
+
+.bg-image {
+    background-image: url("/img/bezpecnost.jpg");
+    filter: blur(24px);
+    -webkit-filter: blur(24px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    transform: scale(1.1);
 }

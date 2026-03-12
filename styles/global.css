@@ -1,0 +1,262 @@
+/* ============================
+   GLOBAL STYLES
+============================ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Avantgarde", TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+/* Background image (all pages) */
+.bg-image {
+    background-image: url("/img/zastavka.jpg");
+    filter: blur(24px);
+    -webkit-filter: blur(24px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+/* ============================
+   NAVBAR
+============================ */
+.navbar {
+    background-color: #6E3CB5;
+    border-bottom: 5px solid white;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700;
+}
+
+.nav-item-active .nav-link {
+    border-bottom: 3px solid white;
+}
+
+.navbar .form-control {
+    border-radius: 12px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.navbar .btn {
+    border-radius: 12px;
+    background-color: white;
+    color: #6E3CB5;
+    font-weight: bold;
+    border: 2px solid #6E3CB5;
+    transition: all 0.3s;
+}
+
+.navbar .btn:hover {
+    background-color: #5a2e95;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .form-control,
+    .navbar .btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+/* ============================
+   BANNERS & HEADINGS
+============================ */
+.banner {
+    border: 6px solid white;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 95%;
+    text-align: center;
+}
+
+.banner h1, .banner h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.headernadpis, .banner-nadpis, .nadpis {
+    font-family: "Avantgarde", TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    border: 6px solid white;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.15);
+    margin: auto;
+    max-width: 600px;
+}
+
+/* Paragraphs inside banners */
+#banner-content, .textPodNadpisem, .podtext, .podtext p {
+    border: 6px solid white;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.08);
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* ============================
+   INDEX BUTTONS
+============================ */
+#button-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.buttons, button[type="submit"] {
+    border: none;
+    border-radius: 25px;
+    background-color: #FFD166;
+    color: black;
+    font-weight: bold;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons:hover, button[type="submit"]:hover {
+    background-color: #ffc233;
+}
+
+/* ============================
+   APLIKACE SECTIONS
+============================ */
+.uvodni-sekce, .stridava-sekce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 32px;
+    flex-wrap: wrap;
+}
+
+.uvodni-text, .text-sekce, .input-box {
+    flex: 1;
+    min-width: 280px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.08);
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.uvodni-obrazek {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.uvodni-obrazek img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+/* Section headings */
+.podnadpis, .nadpis {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.podtext {
+    font-size: x-large;
+    text-align: center;
+}
+
+/* ============================
+   FORM (kontakty)
+============================ */
+.organized-form {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-section legend {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea,
+.input-box .form-range {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 25px;
+    border: none;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 24px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 40px;
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+@media (max-width: 768px) {
+    .uvodni-sekce, .stridava-sekce, .organized-form {
+        flex-direction: column;
+        text-align: center;
+    }
+    .uvodni-obrazek {
+        text-align: center;
+    }
+}
