@@ -16,7 +16,7 @@ html, body {
 
 /* Background image (all pages) */
 .bg-image {
-    background-image: url("/img/zastavka.jpg");
+    background-image: url("img/zastavka.jpg");
     filter: blur(24px);
     -webkit-filter: blur(24px);
     position: fixed;

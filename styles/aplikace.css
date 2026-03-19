@@ -147,7 +147,7 @@ img {
 }
 
 .bg-image {
-    background-image: url("/img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     filter: blur(24px);
     -webkit-filter: blur(24px);
     position: fixed;
