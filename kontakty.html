@@ -7,6 +7,7 @@
     <title>Kontakty</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/kontakty.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
@@ -43,85 +44,114 @@
         </div>
     </nav>
     <div class="bg-image"></div>
-        <form class="organized-form">
-            <div id="banner">
-                <div class="banner-nadpis">
-                    <h2 class="mb-4 text-center"><b>Kontaktujte nás</b></h2>
-                </div>
+    <form class="organized-form">
+        <div id="banner">
+            <div class="banner-nadpis">
+                <h2 class="mb-4 text-center"><b>Kontaktujte nás</b></h2>
             </div>
-            <fieldset class="form-section">
-                <legend style="margin-top: 24px;"><b>Kontaktní údaje</b></legend>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="input-box">
-                            <label class="form-label">Jméno</label>
-                            <input type="text" class="form-control" placeholder="Jan">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-box">
-                            <label class="form-label">Příjmení</label>
-                            <input type="text" class="form-control" placeholder="Novák">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <div class="input-box">
-                            <label class="form-label">Email</label>
-                            <input type="email" class="form-control" placeholder="jan.novak@email.cz">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-box">
-                            <label class="form-label">Telefon</label>
-                            <input type="text" class="form-control" placeholder="+420 123 456 789">
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-            <fieldset class="form-section">
-                <legend><b>Přihlašovací údaje</b></legend>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="input-box">
-                            <label class="form-label">Heslo</label>
-                            <input type="password" class="form-control" placeholder="Zadejte heslo" autocomplete="off">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-box">
-                            <label class="form-label">Potvrzení hesla</label>
-                            <input type="password" class="form-control" placeholder="Znovu zadejte heslo"
-                                autocomplete="off">
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-            <div class="row mt-3">
-                <div class="col-md-12">
+        </div>
+        <fieldset class="form-section">
+            <legend style="margin-top: 24px;"><b>Kontaktní údaje</b></legend>
+            <div class="row">
+                <div class="col-md-6">
                     <div class="input-box">
-                        <label class="form-label">Vaše zpráva</label>
-                        <textarea class="form-control" rows="4" placeholder="Napište zprávu..."></textarea>
+                        <label class="form-label">Jméno</label>
+                        <input type="text" class="form-control" placeholder="Jan">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <label class="form-label">Příjmení</label>
+                        <input type="text" class="form-control" placeholder="Novák">
                     </div>
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="input-box">
-                        <label class="form-label">Příloha</label>
-                        <input type="file" class="form-control">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="jan.novak@email.cz">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <label class="form-label">Telefon</label>
+                        <input type="text" class="form-control" placeholder="+420 123 456 789">
                     </div>
                 </div>
             </div>
-            </fieldset>
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary btn-lg mt-3">Odeslat formulář</button>
+        </fieldset>
+        <fieldset class="form-section">
+            <legend><b>Přihlašovací údaje</b></legend>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <label class="form-label">Heslo</label>
+                        <input type="password" class="form-control" placeholder="Zadejte heslo" autocomplete="off">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <label class="form-label">Potvrzení hesla</label>
+                        <input type="password" class="form-control" placeholder="Znovu zadejte heslo"
+                            autocomplete="off">
+                    </div>
+                </div>
             </div>
-        </form>
+        </fieldset>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="input-box">
+                    <label class="form-label">Vaše zpráva</label>
+                    <textarea class="form-control" rows="4" placeholder="Napište zprávu..."></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="input-box">
+                    <label class="form-label">Příloha</label>
+                    <input type="file" class="form-control">
+                </div>
+            </div>
+        </div>
+        </fieldset>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg mt-3">Odeslat formulář</button>
+        </div>
+    </form>
+    <footer class="footer">
+        <div class="footer-container">
 
+            <div class="footer-section">
+                <h2 class="logo">RideShare</h2>
+                <p>Sdílíme cesty jednoduše a chytře.</p>
+            </div>
 
+            <div class="footer-section">
+                <h3>Navigace</h3>
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="aplikace.html">Naše aplikace</a></li>
+                    <li><a href="o-nas.html">O nás</a></li>
+                    <li><a href="kontakty.html">Kontakty</a></li>
+                </ul>
+            </div>
 
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <ul>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Telefon</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 RideShare. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
