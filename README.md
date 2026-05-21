@@ -1,5 +1,5 @@
 # praktickyprojekt
-Stranka je rozdelena do 4 casti - index, aplikace, o nas, kontakty
+Stranka je rozdelena do 5 casti - index, aplikace, jizdy, o nas, kontakty
 
 ## updaty:
 22.1. update - stranka bezi na githubpages <br>
