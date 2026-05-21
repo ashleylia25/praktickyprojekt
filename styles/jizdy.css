@@ -1,0 +1,93 @@
+.page {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* BANNER jako u o-nas */
+.banner-box {
+    border: 12px solid gainsboro;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    backdrop-filter: blur(6px);
+}
+
+.banner-box h1 {
+    font-weight: bolder;
+}
+
+/* FORM BOX styl jako kontakty */
+.form-box {
+    margin-top: 25px;
+    padding: 25px;
+    border: 6px solid gainsboro;
+    border-radius: 25px;
+    background-color: rgba(25, 25, 25, 0.36);
+    color: white;
+    backdrop-filter: blur(6px);
+}
+
+/* layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col.full {
+    flex: 100%;
+}
+
+/* inputs */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* button stejný styl jako kontakty */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    border: 5px solid white;
+    background-color: #6E3CB5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5a2e95;
+}
+
+/* BACKGROUND sjednocený */
+.bg-image {
+    background-image: url("../img/bg.jpg");
+    filter: blur(24px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    transform: scale(1.1);
+}

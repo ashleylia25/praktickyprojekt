@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jízdy</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/jizdy.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">RideShare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aplikace.html">Naše aplikace</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="jizdy.html">Jízdy</a>
+                        <span class="visually-hidden">(current)</span>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="o-nas.html">O nás</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontakty.html">Kontakty</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-image"></div>
+    <div class="page">
+        <div class="banner-box">
+            <h1>Objednávka jízdy</h1>
+            <p>Vyhledejte a naplánujte svou cestu během pár vteřin.</p>
+        </div>
+        <form class="form-box">
+            <div class="row">
+                <div class="col">
+                    <label>Odkud</label>
+                    <input type="text" placeholder="Praha">
+                </div>
+                <div class="col">
+                    <label>Kam</label>
+                    <input type="text" placeholder="Brno">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Datum</label>
+                    <input type="date">
+                </div>
+                <div class="col">
+                    <label>Čas</label>
+                    <input type="time">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Počet osob</label>
+                    <input type="number" min="1" max="8" value="1">
+                </div>
+                <div class="col">
+                    <label>Typ jízdy</label>
+                    <select>
+                        <option>Standard</option>
+                        <option>Komfort</option>
+                        <option>Premium</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col full">
+                    <label>Poznámka</label>
+                    <textarea rows="4" placeholder="Např. velké zavazadlo..."></textarea>
+                </div>
+            </div>
+            <button type="submit">Najít jízdu</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="logo">RideShare</h2>
+                <p>Sdílíme cesty jednoduše a chytře.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigace</h3>
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="aplikace.html">Naše aplikace</a></li>
+                    <li><a href="o-nas.html">O nás</a></li>
+                    <li><a href="kontakty.html">Kontakty</a></li>
+                    <li><a href="jizdy.html">Jízdy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RideShare</p>
+        </div>
+    </footer>
+</body>
+
+</html>
